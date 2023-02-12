@@ -16,5 +16,5 @@ steps:
     location: 'East US'
     templateLocation: 'URL of the file'
     csmFileLink: 'https://raw.githubusercontent.com/RamuK2001/ARMTemplateRepo/main/DBARMTemplate/template.json'
-    csmParametersFileLink: 'https://raw.githubusercontent.com/RamuK2001/ARMTemplateRepo/main/DBARMTemplate/parameters.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/RamuK2001/ARMTemplateRepo/969bfbcaa128598e924b23ef1b259c8a1580d2e4/DBARMTemplate/parameters.json'
     deploymentMode: 'Incremental'
