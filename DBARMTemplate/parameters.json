@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "workspaces_RamuAzureDB2_name": {
-            "value": RamuAzureDB2
+            "value": "RamuAzureDB2"
         }
     }
 }
