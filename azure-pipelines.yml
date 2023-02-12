@@ -1,0 +1,20 @@
+trigger:
+
+- main
+
+pool:
+  vmImage: ubuntu-latest
+
+steps:
+- task: AzureResourceManagerTemplateDeployment@3
+  inputs:
+    deploymentScope: 'Resource Group'
+    azureResourceManagerConnection: 'Free Trial(6)(ed99c131-036e-4866-ade1-53997fd31720)'
+    subscriptionId: 'ed99c131-036e-4866-ade1-53997fd31720'
+    action: 'Create Or Update Resource Group'
+    resourceGroupName: 'RG1'
+    location: 'East US'
+    templateLocation: 'URL of the file'
+    csmFileLink: 'https://raw.githubusercontent.com/RamuK2001/ARMTemplateRepo/main/DBARMTemplate/template.json'
+    csmParametersFileLink: 'https://raw.githubusercontent.com/RamuK2001/ARMTemplateRepo/main/DBARMTemplate/parameters.json'
+    deploymentMode: 'Incremental'
